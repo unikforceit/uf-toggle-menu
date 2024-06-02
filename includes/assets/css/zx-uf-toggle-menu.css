@@ -1,0 +1,14 @@
+[data-background] {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.uf-toggle-menu ul {
+  margin: 0;
+}
+.uf-toggle-menu .zeynep .submenu ~ ul {
+  display: none;
+}
+
+/*# sourceMappingURL=zx-uf-toggle-menu.css.map */
