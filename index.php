@@ -28,7 +28,7 @@ function uf_toggle_menu() {
     require_once( __DIR__ . '/includes/index.php' );
 
     // Run the plugin
-    \Uf_Toggle_Menu\UFTOGGLEMENU::instance();
+    menu\includes\UFTOGGLEMENU::instance();
 
 }
 add_action( 'plugins_loaded', 'uf_toggle_menu' );

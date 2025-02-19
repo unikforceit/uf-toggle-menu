@@ -44,7 +44,7 @@ final class UFTOGGLEMENU {
      * @since 1.0.0
      * @access private
      * @static
-     * @var \Uf_Toggle_Menu\UFTOGGLEMENU The single instance of the class.
+     * @var menu\includes\UFTOGGLEMENU The single instance of the class.
      */
     private static $_instance = null;
 
@@ -53,10 +53,10 @@ final class UFTOGGLEMENU {
      *
      * Ensures only one instance of the class is loaded or can be loaded.
      *
+     * @return menu\includes\UFTOGGLEMENU An instance of the class.
      * @since 1.0.0
      * @access public
      * @static
-     * @return \Uf_Toggle_Menu\UFTOGGLEMENU An instance of the class.
      */
     public static function instance() {
 

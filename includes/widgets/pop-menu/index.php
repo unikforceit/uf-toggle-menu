@@ -37,7 +37,7 @@ class uf_toggle_menu extends Widget_Base
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
             ]
         );
-        $helper = new \Mlpm_Helper();
+        $helper = new menu\includes\Mlpm_Helper();
         $this->add_control(
             'main_nav',
             [
@@ -446,4 +446,4 @@ class uf_toggle_menu extends Widget_Base
 
 }
 
-Plugin::instance()->widgets_manager->register(new uf_toggle_menu());
+Plugin::instance()->widgets_manager->register(new menu\uf_toggle_menu());
